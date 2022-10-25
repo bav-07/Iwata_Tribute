@@ -48,8 +48,8 @@ header {
 }
 
 #image {
-  width: 80%;
-  max-width: 100%;
+  width: 50%;
+  min-width: 560px;
   display: block;
   margin: 8em auto 10px auto;
   border-radius: 50px;
