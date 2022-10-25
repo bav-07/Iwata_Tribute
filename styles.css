@@ -1,0 +1,138 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://external-preview.redd.it/URHTQ2Y8WXv5GS79Ol_9MMPf93dl9EdOB8dfRdTY3c4.jpg?auto=webp&s=c06860a0e7cb63a790d38cd42143db1fd95212d2);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Gill Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+}
+
+#title {
+  margin: 18px auto 0 auto;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 20px rgba(0,0,0,1);
+  font-weight: bold;
+  display: block;
+}
+
+#link {
+  margin: 15px auto;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#quote {
+  width: 80vw;
+  margin: 0.3em auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 1.3em;
+  font-size: 15px;
+  color: #ffffff;
+  text-shadow: 0px 4px 20px rgba(0,0,0,1);
+}
+
+#image {
+  width: 80%;
+  max-width: 100%;
+  display: block;
+  margin: 8em auto 10px auto;
+  border-radius: 50px;
+  box-shadow: 0px 60px 80px rgba(56,7,4,0.8);
+}
+
+main {
+  padding-top: 0px;
+}
+
+figcaption {
+  font-size: 15px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+#tribute-info {
+  margin: 30px auto;
+  width: 80vw;
+  max-width: 640px;
+  padding: 10px 16px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 16px;
+  box-shadow: 0px 60px 80px rgba(56,7,4,0.8);
+}
+
+#tribute-link-box {
+  margin: 30px auto;
+  width: 80vw;
+  max-width: 640px;
+  padding: 10px 5px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 16px;
+  box-shadow: 0px 60px 80px rgba(56,7,4,0.8);
+}
+
+#tribute-link-blank {
+  margin: 30px auto;
+  width: 80vw;
+  height: 2em;
+  padding: 10px 5px;
+  background-color: rgba(255,255,255,0);
+}
+
+#box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 15px 0 15px 0;
+}
+
+#box2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 15px 0 8px 0;
+}
+
+#box3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 7px 0 30px 0;
+}
+
+#txt1 {
+  width: 55%
+}
+
+#img1 {
+  width: 35%;
+  object-fit: cover;
+  border-radius: 12px;
+}
